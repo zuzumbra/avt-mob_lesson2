@@ -88,7 +88,7 @@ public class MyFirstTest {
                 5
         );
 
-       boolean elements_number = checkForMultipleResults(
+        boolean elements_number = checkForMultipleResults(
                 By.id("org.wikipedia:id/page_list_item_title")
         );
 
@@ -186,7 +186,7 @@ public class MyFirstTest {
     private boolean checkForMultipleResults(By by)
     {
         List<WebElement> elements = driver.findElements(by);
-           return (elements.size() > 1);
+        return (elements.size() > 1);
     }
 
     private String waitForWordInEachElement (By by) {
@@ -207,5 +207,4 @@ public class MyFirstTest {
             return "Test passed";
         }
     }
-
 }
