@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/MyFirstTest.java" line="127" />
+    <bookmark url="file://$PROJECT_DIR$/src/MyFirstTest.java" line="160" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e86fee-dc29-4a4c-86a2-b81ab6a76969" name="Default Changelist" comment="">
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-748">
-              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state relative-caret-position="235">
+              <caret line="124" column="21" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1048#1049#0" expanded="true" />
@@ -114,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyFirstTest.cancelSearch">
+  <component name="RunManager" selected="JUnit.MyFirstTest.testWaitForWord">
     <configuration name="MyFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avt-mob_lesson2" />
       <option name="PACKAGE_NAME" value="" />
@@ -129,6 +129,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyFirstTest" />
       <option name="METHOD_NAME" value="cancelSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstTest.testWaitForWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avt-mob_lesson2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyFirstTest" />
+      <option name="METHOD_NAME" value="testWaitForWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,6 +184,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyFirstTest.testWaitForWord" />
         <item itemvalue="JUnit.MyFirstTest.cancelSearch" />
         <item itemvalue="JUnit.MyFirstTest" />
       </list>
@@ -193,21 +204,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 32m 13s.xml">
-      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 33m 41s.xml">
-      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 43m 24s.xml">
-      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 44m 20s.xml">
-      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 45m 23s.xml">
-      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 46m 42s.xml">
       <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
     </history-entry>
@@ -222,6 +218,21 @@
     </history-entry>
     <history-entry file="MyFirstTest_cancelSearch - 2019.10.25 at 15h 51m 53s.xml">
       <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.25 at 16h 10m 55s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.25 at 17h 57m 17s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_testWaitForWord - 2019.10.25 at 17h 58m 24s.xml">
+      <configuration name="MyFirstTest.testWaitForWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_testWaitForWord - 2019.10.25 at 17h 59m 46s.xml">
+      <configuration name="MyFirstTest.testWaitForWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_testWaitForWord - 2019.10.25 at 18h 00m 38s.xml">
+      <configuration name="MyFirstTest.testWaitForWord" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -259,8 +270,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="235">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1048#1049#0" expanded="true" />

@@ -112,6 +112,39 @@ public class MyFirstTest {
 
     }
 
+    @Test
+    public void testWaitForWord()
+    {
+        waitForElementAndClick(
+                By.xpath("//*[contains(@text, 'Search Wikipedia')]"),
+                "Cannot find 'Search Wikipedia'",
+                5
+        );
+
+        waitForElementAndSendKeys(
+                "PHP",
+                By.xpath("//*[contains(@text, 'Search…')]"),
+                "Cannot find input",
+                5
+        );
+
+        waitForElementPresent(
+                By.id("org.wikipedia:id/page_list_item_title"),
+                "Cannot find any articles",
+                5
+        );
+
+        String test_result = waitForWordInEachElement(By.id("org.wikipedia:id/page_list_item_title"));
+
+        Assert.assertEquals(
+                "Not every result contains the search word",
+                "Test passed",
+                test_result
+        );
+
+    }
+
+
     private WebElement waitForElementPresent(By by, String error_massege, long timeoutInSeconds)
     {
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
@@ -153,7 +186,26 @@ public class MyFirstTest {
     private boolean checkForMultipleResults(By by)
     {
         List<WebElement> elements = driver.findElements(by);
-           return (elements.size()>1);
+           return (elements.size() > 1);
+    }
+
+    private String waitForWordInEachElement (By by) {
+        List<WebElement> elements = driver.findElements(by);
+        String result = null;
+        for (WebElement e : elements) {
+            if (containsIgnoreCase(e.getText(), this.Text)) {
+                result = result + 1;
+            }
+            else {
+                result = result + 0;
+            }
+        }
+        if (result.contains("0")){
+            return "Test failed";
+        }
+        else{
+            return "Test passed";
+        }
     }
 
 }
