@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/MyFirstTest.java" line="127" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="52e86fee-dc29-4a4c-86a2-b81ab6a76969" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MyFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFirstTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+            <state relative-caret-position="-748">
+              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1048#1049#0" expanded="true" />
@@ -64,7 +67,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1508" />
+    <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -92,7 +95,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar!/" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../avt-mob_lesson0" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -110,12 +114,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MyFirstTest.cancelSearch">
     <configuration name="MyFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avt-mob_lesson2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyFirstTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstTest.cancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avt-mob_lesson2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyFirstTest" />
+      <option name="METHOD_NAME" value="cancelSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,6 +174,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyFirstTest.cancelSearch" />
         <item itemvalue="JUnit.MyFirstTest" />
       </list>
     </recent_temporary>
@@ -178,11 +193,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest - 2019.10.22 at 18h 58m 47s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 32m 13s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2019.10.22 at 18h 59m 48s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 33m 41s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 43m 24s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 44m 20s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 45m 23s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 46m 42s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 48m 14s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.25 at 12h 44m 58s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.25 at 12h 48m 59s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_cancelSearch - 2019.10.25 at 15h 51m 53s.xml">
+      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -199,7 +238,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
@@ -220,8 +259,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        <state relative-caret-position="-748">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1048#1049#0" expanded="true" />
