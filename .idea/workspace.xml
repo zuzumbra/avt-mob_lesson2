@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/MyFirstTest.java" line="210" />
+    <bookmark url="file://$PROJECT_DIR$/src/MyFirstTest.java" line="213" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e86fee-dc29-4a4c-86a2-b81ab6a76969" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/avt-mob_lesson2/MyFirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/avt-mob_lesson2/MyFirstTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFirstTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,16 +20,16 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="209" column="1" lean-forward="true" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
+            <state relative-caret-position="337">
+              <caret line="207" column="22" lean-forward="true" selection-start-line="207" selection-start-column="22" selection-end-line="207" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#5913#5914#0" expanded="true" />
+                <element signature="e#5972#5973#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +78,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,10 +85,16 @@
               <item name="avt-mob_lesson2" type="b2602c69:ProjectViewProjectNode" />
               <item name="avt-mob_lesson2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="avt-mob_lesson2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="avt-mob_lesson2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,7 +103,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../avt-mob_lesson0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -204,15 +211,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest_cancelSearch - 2019.10.24 at 21h 48m 14s.xml">
-      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_cancelSearch - 2019.10.25 at 12h 44m 58s.xml">
-      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_cancelSearch - 2019.10.25 at 12h 48m 59s.xml">
-      <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyFirstTest_cancelSearch - 2019.10.25 at 15h 51m 53s.xml">
       <configuration name="MyFirstTest.cancelSearch" configurationId="JUnit" />
     </history-entry>
@@ -234,22 +232,27 @@
     <history-entry file="MyFirstTest_testWaitForWord - 2019.10.25 at 18h 03m 06s.xml">
       <configuration name="MyFirstTest.testWaitForWord" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyFirstTest_testWaitForWord - 2019.10.29 at 14h 15m 54s.xml">
+      <configuration name="MyFirstTest.testWaitForWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_testWaitForWord - 2019.10.30 at 13h 00m 41s.xml">
+      <configuration name="MyFirstTest.testWaitForWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_testWaitForWord - 2019.10.30 at 13h 02m 14s.xml">
+      <configuration name="MyFirstTest.testWaitForWord" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
@@ -257,25 +260,29 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="209" column="1" lean-forward="true" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
+        <state relative-caret-position="337">
+          <caret line="207" column="22" lean-forward="true" selection-start-line="207" selection-start-column="22" selection-end-line="207" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#5913#5914#0" expanded="true" />
+            <element signature="e#5972#5973#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -14,6 +14,7 @@ import java.net.URL;
 import java.util.List;
 
 import static org.apache.commons.lang3.StringUtils.containsIgnoreCase;
+import static org.apache.commons.lang3.StringUtils.replaceEachRepeatedly;
 
 public class MyFirstTest {
     private AppiumDriver driver;
@@ -134,11 +135,11 @@ public class MyFirstTest {
                 5
         );
 
-        String test_result = waitForWordInEachElement(By.id("org.wikipedia:id/page_list_item_title"));
+        boolean test_result = waitForWordInEachElement(By.id("org.wikipedia:id/page_list_item_title"));
 
         Assert.assertEquals(
                 "Not every result contains the search word",
-                "Test passed",
+                true,
                 test_result
         );
 
@@ -183,28 +184,30 @@ public class MyFirstTest {
         return element;
     }
 
-    private boolean checkForMultipleResults(By by)
+    private WebElement waitForElementAndClear(String value, By by, String error_massege, long timeoutInSeconds)
     {
-        List<WebElement> elements = driver.findElements(by);
-        return (elements.size() > 1);
+        WebElement element = waitForElementPresent(by, error_massege, timeoutInSeconds);
+        element.clear();
+        return element;
     }
 
-    private String waitForWordInEachElement (By by) {
+    private boolean checkForMultipleResults(By by)
+    {
+        return (driver.findElements(by).size() > 1);
+    }
+
+    private boolean waitForWordInEachElement (By by) {
         List<WebElement> elements = driver.findElements(by);
-        String result = null;
+        boolean result = false;
         for (WebElement e : elements) {
-            if (containsIgnoreCase(e.getText(), this.Text)) {
-                result = result + 1;
+            if (containsIgnoreCase(e.getText(), this.Text))   {
+                result = true;
             }
             else {
-                result = result + 0;
+                result = false;
+                break;
             }
         }
-        if (result.contains("0")){
-            return "Test failed";
-        }
-        else{
-            return "Test passed";
-        }
+        return result;
     }
 }
