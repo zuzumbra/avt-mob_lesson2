@@ -137,9 +137,8 @@ public class MyFirstTest {
 
         boolean test_result = waitForWordInEachElement(By.id("org.wikipedia:id/page_list_item_title"));
 
-        Assert.assertEquals(
+        Assert.assertTrue(
                 "Not every result contains the search word",
-                true,
                 test_result
         );
 
